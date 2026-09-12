@@ -1,0 +1,36 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>AI Is Just the Beginning — Registration</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f7fa;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial;color:#172033}.wrap{max-width:680px;margin:auto;padding:20px 14px 40px}.card{background:white;border-radius:20px;overflow:hidden;box-shadow:0 8px 30px #08234418}.hero{padding:30px 25px;background:linear-gradient(135deg,#082344,#0b568f);color:white}.eyebrow{font-size:12px;letter-spacing:3px;color:#f1d187;font-weight:700}h1{font:700 38px/1.03 Georgia;margin:12px 0}.hero p{line-height:1.5}.details{margin-top:18px;border:1px solid #ffffff55;border-radius:12px;padding:12px;line-height:1.5}form{padding:25px}.field{margin-bottom:18px}label{display:block;font-size:14px;font-weight:700;margin-bottom:7px}.req{color:#c62828}input,select,textarea{width:100%;min-height:48px;border:1px solid #d0d5dd;border-radius:10px;padding:12px;font-size:16px;background:white}textarea{min-height:90px}.options{display:grid;gap:8px}.option{display:flex;gap:8px;align-items:flex-start;border:1px solid #e0e4ea;padding:11px;border-radius:10px;font-weight:500}.option input{width:18px;min-height:18px;margin:1px 0 0}button{width:100%;min-height:52px;border:0;border-radius:12px;background:#00529b;color:white;font-size:17px;font-weight:800}button:disabled{opacity:.6}.consent,.foot{font-size:12px;color:#667085;line-height:1.5}.success{display:none;padding:45px 25px;text-align:center}.check{margin:auto auto 15px;width:64px;height:64px;border-radius:50%;background:#e8f5ee;color:#19734a;display:grid;place-items:center;font-size:32px}.success h2{color:#082344}.foot{text-align:center;padding:0 20px 20px}@media(max-width:480px){h1{font-size:33px}.hero{padding:25px 20px}form{padding:20px 17px}}
+</style></head><body><div class="wrap"><div class="card">
+<div class="hero"><div class="eyebrow">YOU'RE INVITED • LIVE WEBINAR</div><h1>AI IS JUST<br>THE BEGINNING</h1><p>Don't just watch the technology revolution — understand how to participate in the opportunities it creates.</p><div class="details"><b>Wednesday, 30 September 2026</b><br>8:00 PM – 9:00 PM (SGT) • Live on Zoom</div></div>
+<form id="f">
+<div class="field"><label>Full Name <span class="req">*</span></label><input name="name" autocomplete="name" required maxlength="100" placeholder="Your full name"></div>
+<div class="field"><label>Mobile Number <span class="req">*</span></label><input name="mobile" type="tel" inputmode="tel" autocomplete="tel" required maxlength="25" placeholder="e.g. 9123 4567"></div>
+<div class="field"><label>Email Address <span class="req">*</span></label><input name="email" type="email" autocomplete="email" required maxlength="150" placeholder="you@email.com"></div>
+<div class="field"><label>Which advisor invited you? <span class="req">*</span></label><select name="advisor" required><option value="">Please select your advisor</option><option value="Gillian Ann Tan">Gillian Ann Tan</option>
+<option value="Nicholas Wong">Nicholas Wong</option>
+<option value="Melvin Tan">Melvin Tan</option>
+<option value="Yvonne Lam">Yvonne Lam</option>
+<option value="Jacqueline Boo">Jacqueline Boo</option>
+<option value="Jael Loh">Jael Loh</option>
+<option value="Matthew Chua">Matthew Chua</option>
+<option value="Joel Tan">Joel Tan</option>
+<option value="Audrey Chua">Audrey Chua</option>
+<option value="Rictor Yeo">Rictor Yeo</option>
+<option value="Tan Xin Yin">Tan Xin Yin</option>
+<option value="Jensen Tan">Jensen Tan</option>
+<option value="Leane Leong">Leane Leong</option>
+<option value="Victor Shi">Victor Shi</option></select></div>
+<div class="field"><label>How familiar are you with technology investing?</label><div class="options"><label class="option"><input type="radio" name="familiarity" value="Very familiar">Very familiar</label><label class="option"><input type="radio" name="familiarity" value="Somewhat familiar">Somewhat familiar</label><label class="option"><input type="radio" name="familiarity" value="New to the topic">New to the topic</label></div></div>
+<div class="field"><label>What would you most like to learn about?</label><select name="interest"><option value="">Please select</option><option>AI and the technology revolution</option><option>Global technology investment opportunities</option><option>How technology funds work</option><option>Risks and volatility of technology investing</option><option>How technology exposure could fit into a portfolio</option><option>All of the above</option></select></div>
+<div class="field"><label>Would you be open to a follow-up conversation after the webinar?</label><div class="options"><label class="option"><input type="radio" name="followup" value="Yes, please contact me">Yes, please contact me</label><label class="option"><input type="radio" name="followup" value="Maybe">Maybe, depending on the session</label><label class="option"><input type="radio" name="followup" value="No">No follow-up for now</label></div></div>
+<div class="field"><label>Any question you'd like us to address?</label><textarea name="question" maxlength="500" placeholder="Optional"></textarea></div>
+<p class="consent">By submitting, you are registering for the webinar and agree that the information provided may be used to administer registration and, where applicable, follow up regarding the session. Please refer to the applicable privacy notice and your advisor's firm's requirements.</p>
+<button id="b">Reserve My Seat</button></form>
+<div class="success" id="ok"><div class="check">✓</div><h2>You're Registered!</h2><p>Thank you for registering for <b>AI Is Just the Beginning</b>.</p><p>We look forward to seeing you on 30 September 2026 at 8:00 PM (SGT) on Zoom.</p><p>Your advisor will share the webinar access details with you.</p></div>
+<div class="foot">For educational purposes only. This webinar does not constitute financial or investment advice.</div>
+</div></div>
+<script>
+const ENDPOINT="https://script.google.com/macros/s/AKfycbzzL9gSAo-F-zy-5E3ULJBj_qmTMJRDEQwRc-wDr5IY3uGWzUuEkmx6gutY08SR02Fa/exec";
+document.getElementById("f").addEventListener("submit",async e=>{e.preventDefault();const b=document.getElementById("b");if(ENDPOINT.includes("PASTE_YOUR")){alert("The form is not connected yet. Please add the Google Apps Script Web App URL.");return}b.disabled=true;b.textContent="Submitting…";const data=Object.fromEntries(new FormData(e.target).entries());data.timestamp=new Date().toISOString();try{await fetch(ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(data)});e.target.style.display="none";document.getElementById("ok").style.display="block";window.scrollTo({top:0,behavior:"smooth"})}catch(x){b.disabled=false;b.textContent="Reserve My Seat";alert("Unable to submit. Please try again or contact your advisor.")}});
+</script></body></html>
